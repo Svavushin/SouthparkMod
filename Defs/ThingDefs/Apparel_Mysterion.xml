@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>SPD_Apparel_MysterionSuit</defName>
+    <label>Mysterion suit</label>
+    <description>A special Mysterion outfit placed on a colonist corpse by South Park Deaths.</description>
+    <graphicData>
+      <texPath>SouthPark/MysterionSuit/MysterionSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.90</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <smeltable>false</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>SouthPark/MysterionSuit/MysterionSuit</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1</weight>
+          <only>(1.0,1.0,1.0)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="HatBase">
+    <defName>SPD_Apparel_MysterionHood</defName>
+    <label>Mysterion hood</label>
+    <description>A special Mysterion hood placed on a colonist corpse by South Park Deaths.</description>
+    <graphicData>
+      <texPath>SouthPark/MysterionHood/MysterionHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.2</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <smeltable>false</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>SouthPark/MysterionHood/MysterionHood</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1</weight>
+          <only>(1.0,1.0,1.0)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
