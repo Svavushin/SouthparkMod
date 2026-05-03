@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>SPD_MrHankeyVisitor</defName>
+    <label>Mr. Hankey</label>
+    <thingClass>SouthParkDeaths.Pawn_MrHankeyVisitor</thingClass>
+    <description>A festive visitor who arrives with small gifts and leaves before overstaying his welcome.</description>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <MarketValue>0</MarketValue>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>100</ComfyTemperatureMax>
+      <Wildness>0</Wildness>
+    </statBases>
+    <uiIconScale>1</uiIconScale>
+    <race>
+      <body>QuadrupedAnimalWithPaws</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>9999</baseHealthScale>
+      <baseHungerRate>0</baseHungerRate>
+      <foodType>OmnivoreAnimal</foodType>
+      <leatherDef>Leather_Plain</leatherDef>
+      <trainability>None</trainability>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <headPosPerRotation>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
+      </headPosPerRotation>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>SPD_MrHankeyVisitorKind</defName>
+    <label>Mr. Hankey</label>
+    <race>SPD_MrHankeyVisitor</race>
+    <combatPower>0</combatPower>
+    <ecoSystemWeight>0</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <graphicClass>SouthParkDeaths.Graphic_MrHankey</graphicClass>
+          <texPath>MrHankey</texPath>
+          <drawSize>(0.975, 1.65)</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>South Park Deaths</name>
+  <name>SouthparkMod</name>
   <author>Local</author>
   <packageId>local.southpark.deaths</packageId>
   <supportedVersions>
@@ -13,5 +13,5 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
   </modDependencies>
-  <description>Plays a custom Kenny death gag for colonist deaths and shows a custom resurrection image after using resurrector mech serum.</description>
+  <description>Adds South Park themed events: Kenny death gags, Mysterion, and Mr. Hankey gift visits.</description>
 </ModMetaData>

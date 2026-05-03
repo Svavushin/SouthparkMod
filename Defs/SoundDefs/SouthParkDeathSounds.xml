@@ -17,4 +17,22 @@
       </li>
     </subSounds>
   </SoundDef>
+
+  <SoundDef>
+    <defName>SPD_MrHankeyEvent</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SouthPark/MrHankey</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
 </Defs>

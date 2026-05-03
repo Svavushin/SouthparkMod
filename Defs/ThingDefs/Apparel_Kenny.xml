@@ -3,7 +3,7 @@
   <ThingDef ParentName="ApparelBase">
     <defName>SPD_Apparel_KennyParka</defName>
     <label>Kenny outfit</label>
-    <description>A special outfit placed on a colonist corpse by South Park Deaths.</description>
+    <description>A special outfit placed on a colonist corpse by SouthparkMod.</description>
     <graphicData>
       <texPath>SouthPark/KennyParka/KennyParka</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -45,7 +45,7 @@
   <ThingDef ParentName="HatBase">
     <defName>SPD_Apparel_KennyHood</defName>
     <label>Kenny hood</label>
-    <description>A special hood placed on a colonist corpse by South Park Deaths.</description>
+    <description>A special hood placed on a colonist corpse by SouthparkMod.</description>
     <graphicData>
       <texPath>SouthPark/KennyHood/KennyHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>SPD_MrHankeyGift</defName>
+    <label>Mr. Hankey gift</label>
+    <category>Special</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>SouthParkDeaths.IncidentWorker_MrHankeyGift</workerClass>
+    <baseChance>0</baseChance>
+    <letterLabel>Мистер Какашка</letterLabel>
+    <letterText>Мистер Какашка заглянул в колонию и оставил подарок.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+  </IncidentDef>
+</Defs>

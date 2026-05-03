@@ -3,11 +3,11 @@
   <ThingDef ParentName="ApparelBase">
     <defName>SPD_Apparel_MysterionSuit</defName>
     <label>Mysterion suit</label>
-    <description>A special Mysterion outfit placed on a colonist corpse by South Park Deaths.</description>
+    <description>A special Mysterion outfit placed on a colonist corpse by SouthparkMod.</description>
     <graphicData>
       <texPath>SouthPark/MysterionSuit/MysterionSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.90</drawSize>
+      <drawSize>1</drawSize>
     </graphicData>
     <thingCategories>
       <li>ApparelMisc</li>
@@ -45,11 +45,11 @@
   <ThingDef ParentName="HatBase">
     <defName>SPD_Apparel_MysterionHood</defName>
     <label>Mysterion hood</label>
-    <description>A special Mysterion hood placed on a colonist corpse by South Park Deaths.</description>
+    <description>A special Mysterion hood placed on a colonist corpse by SouthparkMod.</description>
     <graphicData>
       <texPath>SouthPark/MysterionHood/MysterionHood</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
+      <drawSize>2</drawSize>
     </graphicData>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>

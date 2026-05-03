@@ -1,0 +1,8 @@
+<Defs>
+  <HeadTypeDef>
+    <defName>SPD_MysterionHead</defName>
+    <label>mysterion head</label>
+    <graphicPath>Things/Pawn/Humanlike/Heads/Mysterion/MysterionHead</graphicPath>
+    <gender>Male</gender>
+  </HeadTypeDef>
+</Defs>
